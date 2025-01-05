@@ -15,7 +15,7 @@ public class SpawnMonster : MonoBehaviour
         SpawnObjectsOutsideCamera();
     }
 
-    void SpawnObjectsOutsideCamera()
+    public void SpawnObjectsOutsideCamera()
     {
         for (int i = 0; i < numberOfObjects; i++)
         {

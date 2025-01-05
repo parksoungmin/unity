@@ -15,7 +15,6 @@ public class AxeCreate : MonoBehaviour
 
     private void Update()
     {
-        // 도끼를 던지기 위한 키 입력 (예: 2번 키)
         if (Time.time - lastThrowTime >= throwCooldown)
         {
             lastThrowTime = Time.time;
